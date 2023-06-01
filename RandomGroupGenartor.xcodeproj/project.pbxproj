@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		29ABAC532A27A11400E4BB34 /* RandomGroupGenartorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ABAC522A27A11400E4BB34 /* RandomGroupGenartorApp.swift */; };
-		29ABAC552A27A11400E4BB34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ABAC542A27A11400E4BB34 /* ContentView.swift */; };
 		29ABAC572A27A11500E4BB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29ABAC562A27A11500E4BB34 /* Assets.xcassets */; };
 		29ABAC5A2A27A11500E4BB34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29ABAC592A27A11500E4BB34 /* Preview Assets.xcassets */; };
+		29ABAC612A27A2EF00E4BB34 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29ABAC602A27A2EF00E4BB34 /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		29ABAC4F2A27A11400E4BB34 /* RandomGroupGenartor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomGroupGenartor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29ABAC522A27A11400E4BB34 /* RandomGroupGenartorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGroupGenartorApp.swift; sourceTree = "<group>"; };
-		29ABAC542A27A11400E4BB34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		29ABAC562A27A11500E4BB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29ABAC592A27A11500E4BB34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29ABAC602A27A2EF00E4BB34 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				29ABAC522A27A11400E4BB34 /* RandomGroupGenartorApp.swift */,
-				29ABAC542A27A11400E4BB34 /* ContentView.swift */,
+				29ABAC602A27A2EF00E4BB34 /* View.swift */,
 				29ABAC562A27A11500E4BB34 /* Assets.xcassets */,
 				29ABAC582A27A11500E4BB34 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29ABAC552A27A11400E4BB34 /* ContentView.swift in Sources */,
+				29ABAC612A27A2EF00E4BB34 /* View.swift in Sources */,
 				29ABAC532A27A11400E4BB34 /* RandomGroupGenartorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
